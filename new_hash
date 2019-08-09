@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 new_hash = {}
+=======
+hash_new => {}
+>>>>>>> efafa36d9d4d09b5f8c0a67e7ceb1d1729466298
 #=> {}
 
 my_hash = foods = {1 => "pizza", 2 => "chips", 10 => "cake"}
@@ -28,17 +32,32 @@ user_info[key]
 
 my_hash_creator= 
 
+<<<<<<< HEAD
 
 
 #read_from_hash= 
 
+=======
+pets = {"cat" => "grumpy", "dog" => "Wishbone"}
+#=> {"cat"=>"grumpy", "dog"=>"Wishbone"}
+ 
+pets["cat"]
+#=> "grumpy"
+
+read_from_hash= 
+
+>>>>>>> efafa36d9d4d09b5f8c0a67e7ceb1d1729466298
 food = {:melons => 10, :cheese => 4, :cookies => 2, :grapes => 13}
 #=> {:melons=>10, :cheese=>4, :cookies=>2, :grapes=>13}
  
 food[:pizza]
 #=> nil
 
+<<<<<<< HEAD
 #update_counting_hash= 
+=======
+update_counting_hash= 
+>>>>>>> efafa36d9d4d09b5f8c0a67e7ceb1d1729466298
 
 healthy_things = {1 => "cat", 2 => "dog", 10 => "bird"}
  
