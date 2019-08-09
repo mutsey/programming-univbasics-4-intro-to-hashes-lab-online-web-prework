@@ -1,24 +1,21 @@
-new_hash = 
-prices = {
-"sandwich" => 2.50,
-"pickles" =>  1.50,
-"soda" =>  2.50
-}
+new_hash = {}
+#=> {}
 
-my_hash = {
-  "sandwich" => "3",
-  "pickles" => "4"}
+my_hash = foods = {1 => "pizza", 2 => "chips", 10 => "cake"}
+ 
+foods[10]
+#=> "cake"
 
-key = :name
+pioneer = :name
 #=> :name
  
-user_info = {:name => "Grace Hopper"}
-#=> {:name=>"Grace Hopper"}
+name = {:name => "Grace Hopper"}
+#=> {:name=> "Grace Hopper"}
  
-user_info[key]
+name[key]
 #=> "Grace Hopper"
 
-id_generator = 
+#id_generator = 
 
 key = :id
 #=> :id
@@ -31,6 +28,19 @@ user_info[key]
 
 my_hash_creator= 
 
-read_from_hash= 
 
-update_counting_hash= 
+
+#read_from_hash= 
+
+food = {:melons => 10, :cheese => 4, :cookies => 2, :grapes => 13}
+#=> {:melons=>10, :cheese=>4, :cookies=>2, :grapes=>13}
+ 
+food[:pizza]
+#=> nil
+
+#update_counting_hash= 
+
+healthy_things = {1 => "cat", 2 => "dog", 10 => "bird"}
+ 
+bird[10]
+#=> "bird"
